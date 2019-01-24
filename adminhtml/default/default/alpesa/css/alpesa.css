@@ -1,0 +1,86 @@
+   /**dynamic rules table**/
+ .class-rules-dynamic-alpesa:nth-child(odd){
+   background-color:#D8D8D8;
+   }
+   .class-rules-dynamic-alpesa:nth-child(even){
+   background-color:#f9f5de;
+   }
+
+   .class-rules-dynamic-alpesa td{
+   padding:1%;
+   }
+   /**specific conditions**/
+   .dynamic-conditions-holder{
+    border:1px solid #eb6625;
+    padding:3%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+   .dynamic-conditions-holder label{
+   width:100%;
+   float:left;
+   }
+   .dynamic-conditions-holder select{
+  margin-bottom:3%; 
+}
+   .dynamic-conditions-holder .radio-group-al{
+   margin:3% 0px;
+   }
+   .add-rule-cust-btn,.add-card-btn{
+    margin-top:3%;
+}
+
+#card-rules-table-holder td{
+    padding:3%;
+    
+}
+#card-rules-table-holder td input{
+   width:100%; 
+}
+#card-rules-table-holder td:first-child{
+   padding: 3% 0.3%; 
+}
+#card-rules-table-holder td select{
+   width:100%; 
+}
+#card-rules-table-holder td:nth-child(6) select{ 
+   width:81px;
+   margin:3% 0px;
+}
+#card-rules-table-holder label{
+    width:100%;float:left;
+    margin-bottom:3%;
+}
+
+#card-rules-table-holder tr:nth-child(odd){
+    background:#f9f5de;
+}
+#card-rules-table-holder tr:nth-child(even){
+    background:#e5e5e5;
+}
+.custStaticRulesClass{
+    width:100%;float:left;
+}
+.custStaticRulesClass{
+    border:1px solid #e5e4e2;
+    width:221px;
+    padding:3%;
+}
+.custStaticRulesClass input,.custStaticRulesClass label{
+    float:left;
+    margin-top:7%;
+}
+.custStaticRulesClass label{
+    width:100%;
+}
+.custStaticRulesClass input{
+    width:100px;
+}
+
+
+/**alpesa admin**/
+.alpesa-payments-table-holder
+{
+    height:450px;
+    overflow-y:scroll;
+}
